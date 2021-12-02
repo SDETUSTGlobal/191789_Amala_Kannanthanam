@@ -1,0 +1,6 @@
+thistuple = ("Jan", "Feb", "March")
+print(thistuple)
+tup1 = ("Amala", "Kananthanam", "1999", "Manimala", "Kottayam")
+tup2 = (1,2,3,4,5,6,7)
+print(tup1[0:5])
+print(tup2[1])

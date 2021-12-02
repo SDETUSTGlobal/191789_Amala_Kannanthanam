@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19928" started-at="2021-10-07T10:48:31Z" finished-at="2021-10-07T10:48:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19928" started-at="2021-10-07T10:48:31Z" finished-at="2021-10-07T10:48:51Z">
+      <class name="Sel.ExcelExampleFile">
+        <test-method status="PASS" signature="demoClass(java.lang.String, java.lang.String)[pri:0, instance:Sel.ExcelExampleFile@3159c4b8]" name="demoClass" duration-ms="9732" started-at="2021-10-07T16:18:33Z" data-provider="testdata" finished-at="2021-10-07T16:18:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoClass -->
+        <test-method status="PASS" signature="demoClass(java.lang.String, java.lang.String)[pri:0, instance:Sel.ExcelExampleFile@3159c4b8]" name="demoClass" duration-ms="8249" started-at="2021-10-07T16:18:43Z" data-provider="testdata" finished-at="2021-10-07T16:18:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ffc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoClass -->
+      </class> <!-- Sel.ExcelExampleFile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211127 14:55:44.091" rpa="false" schemaversion="2">
+<suite id="s1" name="Tc" source="D:\robertframeworkproject\testcases\tc.robot">
+<test id="s1-t1" name="Open Browser To Login Page">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${LOGIN URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211127 14:55:45.310" level="INFO">Opening browser 'chrome' to base url 'http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx'.</msg>
+<status status="PASS" starttime="20211127 14:55:45.308" endtime="20211127 14:55:52.232"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20211127 14:55:52.238" endtime="20211127 14:55:52.409"/>
+</kw>
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<arg>${DELAY}</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" starttime="20211127 14:55:52.410" endtime="20211127 14:55:52.412"/>
+</kw>
+<status status="PASS" starttime="20211127 14:55:45.304" endtime="20211127 14:55:52.413"/>
+</test>
+<test id="s1-t2" name="Go To Login Page">
+<kw name="Go To" library="SeleniumLibrary">
+<arg>${LOGIN URL}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<msg timestamp="20211127 14:55:52.421" level="INFO">Opening url 'http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx'</msg>
+<status status="PASS" starttime="20211127 14:55:52.420" endtime="20211127 14:55:52.804"/>
+</kw>
+<status status="PASS" starttime="20211127 14:55:52.417" endtime="20211127 14:55:52.806"/>
+</test>
+<test id="s1-t3" name="Input Username">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>ctl00_MainContent_username</arg>
+<arg>${VALID USER}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211127 14:55:52.815" level="INFO">Typing text 'Tester' into text field 'ctl00_MainContent_username'.</msg>
+<status status="PASS" starttime="20211127 14:55:52.813" endtime="20211127 14:55:52.980"/>
+</kw>
+<status status="PASS" starttime="20211127 14:55:52.809" endtime="20211127 14:55:52.982"/>
+</test>
+<test id="s1-t4" name="Input Password">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>ctl00$MainContent$password</arg>
+<arg>${VALID PASSWORD}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20211127 14:55:52.987" level="INFO">Typing text 'test' into text field 'ctl00$MainContent$password'.</msg>
+<status status="PASS" starttime="20211127 14:55:52.986" endtime="20211127 14:55:53.169"/>
+</kw>
+<status status="PASS" starttime="20211127 14:55:52.984" endtime="20211127 14:55:53.171"/>
+</test>
+<test id="s1-t5" name="Submit Credentials">
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>ctl00$MainContent$login_button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20211127 14:55:53.178" level="INFO">Clicking button 'ctl00$MainContent$login_button'.</msg>
+<status status="PASS" starttime="20211127 14:55:53.177" endtime="20211127 14:55:54.886"/>
+</kw>
+<status status="PASS" starttime="20211127 14:55:53.175" endtime="20211127 14:55:54.887"/>
+</test>
+<test id="s1-t6" name="Welcome Page Should Be Open">
+<kw name="Location Should Be" library="SeleniumLibrary">
+<arg>${WELCOME URL}</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<msg timestamp="20211127 14:55:54.905" level="INFO">Current location is 'http://secure.smartbearsoftware.com/samples/TestComplete11/WebOrders/default.aspx'.</msg>
+<status status="PASS" starttime="20211127 14:55:54.892" endtime="20211127 14:55:54.905"/>
+</kw>
+<kw name="Title Should Be" library="SeleniumLibrary">
+<arg>Web Orders</arg>
+<doc>Verifies that the current page title equals ``title``.</doc>
+<msg timestamp="20211127 14:55:54.917" level="INFO">Page title is 'Web Orders'.</msg>
+<status status="PASS" starttime="20211127 14:55:54.905" endtime="20211127 14:55:54.917"/>
+</kw>
+<status status="PASS" starttime="20211127 14:55:54.891" endtime="20211127 14:55:54.918"/>
+</test>
+<test id="s1-t7" name="Close Browser">
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20211127 14:55:54.923" endtime="20211127 14:55:57.427"/>
+</kw>
+<status status="PASS" starttime="20211127 14:55:54.921" endtime="20211127 14:55:57.428"/>
+</test>
+<status status="PASS" starttime="20211127 14:55:44.100" endtime="20211127 14:55:57.433"/>
+</suite>
+<statistics>
+<total>
+<stat pass="7" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="7" fail="0" skip="0" id="s1" name="Tc">Tc</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

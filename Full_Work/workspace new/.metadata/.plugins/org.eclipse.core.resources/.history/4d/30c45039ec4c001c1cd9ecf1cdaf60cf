@@ -1,0 +1,20 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+#open Google Chrome browser  
+driver = webdriver.Chrome("D://chromedriver_win32//chromedriver")  
+#maximize the window size  
+driver.maximize_window()  
+#delete the cookies  
+driver.delete_all_cookies()  
+driver.get("http://secure.smartbearsoftware.com/samples/testcomplete11/WebOrders/login.aspx");
+driver.find_element_by_id("ctl00_MainContent_username").send_keys("Tester");
+time.sleep(3)
+driver.find_element_by_id("ctl00_MainContent_password").send_keys("test");
+time.sleep(3)
+driver.find_element_by_id("ctl00_MainContent_login_button").click();
+driver.find_element_by_id("ctl00_MainContent_btnCheckAll").click();
+        
+    
+      

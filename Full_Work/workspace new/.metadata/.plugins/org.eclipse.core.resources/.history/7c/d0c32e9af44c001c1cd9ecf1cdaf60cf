@@ -1,0 +1,16 @@
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+ 
+print("test case started")  
+
+driver = webdriver.Chrome("D://chromedriver_win32//chromedriver")  
+
+driver.maximize_window()  
+
+driver.delete_all_cookies()  
+
+driver.get("https://www.amazon.in/")  
+#
+driver.find_element_by_id("twotabsearchtextbox").send_keys("oppo");
+driver.find_element_by_xpath("/html/body/div[1]/header/div/div[1]/div[2]/div/form/div[3]/div/span/input").send_keys("oppo");

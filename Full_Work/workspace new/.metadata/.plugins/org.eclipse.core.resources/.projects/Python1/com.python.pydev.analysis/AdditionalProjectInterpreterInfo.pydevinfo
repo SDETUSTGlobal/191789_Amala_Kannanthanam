@@ -1,0 +1,41 @@
+-- VERSION_5
+-- START DISKCACHE_3
+C:\Users\Amala B Kannanthanam\workspace new\.metadata\.plugins\org.eclipse.core.resources\.projects\Python1\com.python.pydev.analysis\v2_indexcache
+Demo.gmail|1637732929212779200|C:\Users\Amala B Kannanthanam\workspace new\Python1\Demo\gmail.py
+sites.filpkart|1637743122701628800|C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\filpkart.py
+Demo.rediffmail|1637732929044767500|C:\Users\Amala B Kannanthanam\workspace new\Python1\Demo\rediffmail.py
+sites.myntra|1637744581725948300|C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\myntra.py
+smartbear.__init__|1637733133591958100|C:\Users\Amala B Kannanthanam\workspace new\Python1\smartbear\__init__.py
+smartbear.smartbearweb|1637739980409893900|C:\Users\Amala B Kannanthanam\workspace new\Python1\smartbear\smartbearweb.py
+sites.__init__|1637736515931638300|C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\__init__.py
+sites.amazon|1637741633697251800|C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\amazon.py
+Demo.__init__|1637730747934707400|C:\Users\Amala B Kannanthanam\workspace new\Python1\Demo\__init__.py
+sites.aijo|1637744577269402400|C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\aijo.py
+-- END DISKCACHE
+-- START DICTIONARY
+16
+2=Demo.gmail
+8=sites.myntra
+13=C:\Users\Amala B Kannanthanam\workspace new\Python1\Demo\__init__.py
+14=Demo.__init__
+16=sites.aijo
+9=C:\Users\Amala B Kannanthanam\workspace new\Python1\Demo\rediffmail.py
+6=sites.filpkart
+10=Demo.rediffmail
+11=C:\Users\Amala B Kannanthanam\workspace new\Python1\smartbear\smartbearweb.py
+15=C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\aijo.py
+12=smartbear.smartbearweb
+1=C:\Users\Amala B Kannanthanam\workspace new\Python1\Demo\gmail.py
+5=C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\filpkart.py
+3=C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\amazon.py
+7=C:\Users\Amala B Kannanthanam\workspace new\Python1\sites\myntra.py
+4=sites.amazon
+-- END DICTIONARY
+-- START TREE 1
+2
+dri|8|driver!1^6#1*19@driver!3^8#1*35@driver!5^7#1*51@driver!7^7#1*67@driver!9^6#1*83@driver!11^7#1*99@driver!13^5#1*115@driver!15^7#1*131@
+dro|1|dropdown!11^44#1*99@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

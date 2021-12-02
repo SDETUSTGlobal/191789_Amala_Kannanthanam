@@ -1,0 +1,5 @@
+print("Welcome to my world ")
+print(8 * "\n")
+print("Thank you")
+print("Welcome to", end=' ')
+print("Python", end='!')

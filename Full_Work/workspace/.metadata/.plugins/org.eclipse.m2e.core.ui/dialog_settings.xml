@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="restAssurredTest"/>
+			<item value="newproject"/>
+			<item value="WebdriverTests"/>
+			<item value="Mockito5"/>
+			<item value="Mockito4"/>
+			<item value="Mockito3"/>
+			<item value="Mockito2"/>
+			<item value="Mockito1"/>
+			<item value="WebProject"/>
+			<item value="testing"/>
+			<item value="CucumberTesting"/>
+			<item value="newData"/>
+			<item value="Login"/>
+			<item value="Project"/>
+			<item value="Sample"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="restAssurredTest"/>
+			<item value="newproject"/>
+			<item value="WebdriverTests"/>
+			<item value="Mockito5"/>
+			<item value="Mockito4"/>
+			<item value="Mockito3"/>
+			<item value="Mockito2"/>
+			<item value="Mockito1"/>
+			<item value="WebProject"/>
+			<item value="testing"/>
+			<item value="CucumberTesting"/>
+			<item value="newData"/>
+			<item value="Login"/>
+			<item value="Project"/>
+			<item value="Sample"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Amala B Kannanthanam\workspace\Mockito3\src\test\java\com\app\Mockito\TestListtri1.java"/>
+			<item value="C:\Users\Amala B Kannanthanam\workspace\Mockito3\src\test\java\com\app\Mockito"/>
+			<item value="C:\Users\Amala B Kannanthanam\workspace\Mockito1\src\main\java\com\app\Mockito\ToDoService.java"/>
+			<item value="C:\Users\Amala B Kannanthanam\workspace\testing\src\test\java\second\Run2.java"/>
+			<item value="C:\Users\Amala B Kannanthanam\workspace\newData\src\test\java\newData\Run.java"/>
+			<item value="C:\Users\Amala B Kannanthanam\workspace\Login\src\test\java\login\Run.java"/>
+			<item value="C:\Users\Amala B Kannanthanam\workspace\First"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

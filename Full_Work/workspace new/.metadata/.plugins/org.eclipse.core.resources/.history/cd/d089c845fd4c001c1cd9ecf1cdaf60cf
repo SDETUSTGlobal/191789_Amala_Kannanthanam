@@ -1,0 +1,30 @@
+
+from selenium import webdriver  
+import time  
+from selenium.webdriver.common.keys import Keys  
+print("test case started")  
+#open Google Chrome browser  
+driver = webdriver.Chrome("D://chromedriver_win32//chromedriver")  
+#maximize the window size  
+driver.maximize_window()  
+#delete the cookies  
+driver.delete_all_cookies()  
+#navigate to the url  
+driver.get("https://www.flipkart.com/")  
+#identify the user name text box and enter the value  
+driver.find_element_by_xpath("/html/body/div[2]/div/div/button").click()
+driver.find_element_by_name("q").send_keys("shoes")  
+time.sleep(2) 
+
+driver.find_element_by_xpath("/html/body/div[1]/div/div[1]/div[1]/div[2]/div[2]/form/div/button").click()
+time.sleep(2)  
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[2]/div[2]/div/div[1]/div/a/div[1]/div/div/div/img").click()
+time.sleep(2) 
+driver.find_element_by_xpath("/html/body/div[1]/div/div[3]/div[1]/div[1]/div[2]/div/ul/li[1]/button").click()
+#driver.find_element_by_id("add-to-cart-button").click()
+#time.sleep(2)
+
+#driver.find_element_by_id("hlb-view-cart-announce").click()
+#time.sleep(2)
+#driver.close()  
+print("successfully completed")
